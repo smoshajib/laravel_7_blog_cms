@@ -11,17 +11,17 @@
     <title>Clean Blog - Start Bootstrap Theme</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="{{ asset('website/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('public/website/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="{{ asset('website/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('public/website/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
           type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
           rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->
-    <link href="{{ asset('website/css/clean-blog.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('public/website/css/clean-blog.min.css') }}" rel="stylesheet">
 
     <style>
         .page-link {
@@ -125,11 +125,11 @@
 </footer>
 
 <!-- Bootstrap core JavaScript -->
-<script src="{{ asset('website/vendor/jquery/jquery.min.js') }}"></script>
-<script src="{{ asset('website/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ asset('public/website/vendor/jquery/jquery.min.js') }}"></script>
+<script src="{{ asset('public/website/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 
 <!-- Custom scripts for this template -->
-<script src="{{ asset('website/js/clean-blog.min.js') }}"></script>
+<script src="{{ asset('public/website/js/clean-blog.min.js') }}"></script>
 
 </body>
 
