@@ -2,7 +2,7 @@
 
 ## Clone this repo
 ```
-https://github.com/samironbarai/laravel-7-blog-cms.git
+https://github.com/smoshajib/laravel_7_blog_cms.git
 ```
 
 ## Install composer packages
