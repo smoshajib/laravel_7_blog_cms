@@ -18,7 +18,7 @@ use Illuminate\Support\Str;
 | model instances for testing / seeding your application's database.
 |
 */
-
+//user
 $factory->define(User::class, function (Faker $faker) {
     return [
         'name' => $faker->name,
@@ -28,6 +28,8 @@ $factory->define(User::class, function (Faker $faker) {
         'remember_token' => Str::random(10),
     ];
 });
+
+//Post
 
 $factory->define(Post::class, function (Faker $faker) {
     $title = $faker->unique()->sentence;
@@ -44,7 +46,7 @@ $factory->define(Post::class, function (Faker $faker) {
         'updated_at' => now(),
     ];
 });
-
+//category post
 $factory->define(CategoryPost::class, function (Faker $faker) {
     return [
         'category_id' => rand(1, 5),

@@ -13,6 +13,8 @@ class CategoriesTableSeeder extends Seeder
      */
     public function run()
     {
+        
+//        category seed
         DB::table('categories')->insert([
             [
                 'user_id' => '1',
